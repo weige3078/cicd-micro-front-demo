@@ -1,0 +1,10 @@
+{
+  "name": "cicd-demo",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n main,sub -c blue,magenta \"pnpm --filter main dev\" \"pnpm --filter sub-vue dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
