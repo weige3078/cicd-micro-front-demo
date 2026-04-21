@@ -6,7 +6,7 @@ export default function VueLayout() {
         id="subapp-container"
         style={{ minHeight: 240, border: "1px dashed #ccc" }}
       >
-        <div id="app" />
+        <div id="sub-vue-root" />
       </div>
     </div>
   );
